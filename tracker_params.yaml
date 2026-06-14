@@ -1,0 +1,54 @@
+
+det_thresh: 
+  default: 0.15       
+
+iou_threshold:
+  default: 0.60        
+
+track_high_thresh:
+  default: 0.25       
+
+track_low_thresh:
+  default: 0.1        
+
+new_track_thresh:
+  default: 0.45       
+
+match_thresh:
+  default: 0.7
+
+track_buffer:
+  default: 60
+
+max_obs:
+  default: 61
+
+max_age:
+  default: 60
+
+min_hits:
+  default: 3
+
+with_reid:
+  default: True
+
+fuse_first_associate:
+  default: True
+
+fuse_score:
+  default: True
+
+appearance_thresh:
+  default: 0.2
+
+proximity_thresh:
+  default: 0.9
+
+gmc_method:
+  default: sparseOptFlow
+
+frame_rate:
+  default: 25
+
+per_class:
+  default: False
